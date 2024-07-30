@@ -1,0 +1,251 @@
+*{
+    margin:0%;
+}
+.navbar{
+    background-color: black;
+    height:60px;
+    width:100%;
+    display:flex;
+    margin: 0%;
+    border-radius: 2px 2px 2px 2px;
+}
+.logo{
+    width: 140px;
+    height: 55px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.logo:hover{
+    border:rgb(255, 255, 255) 1px solid;
+    border-radius: 2px;
+}
+.location{
+    width: 200px;
+    height: 60px;
+    color:white;
+    display:flex;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+.maps{
+    margin-top: 20px;
+    margin-left:8px;
+    height:25px;
+    width:28px;
+}
+.location:hover{
+    border:rgb(255, 255, 255) 1px solid;
+    border-radius: 2px;
+}
+.city{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.present{
+    font-weight: lighter;
+    color: rgb(192, 187, 187);
+}
+.update{
+    margin-top: 5px;
+    font-weight: bolder;
+}
+.search{
+    width:600px;
+    display:flex;
+}
+#searchlogo{
+    background-color: rgb(214, 193, 41);
+    height:35px;
+    width:45px;
+    margin-top: 12px;
+    padding-left:1%;
+}
+.search input{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+.accounts{
+    width:90px;
+    color:white;
+    margin-left: 25px;
+    margin-top:5px;
+    font-size: small;
+    margin-bottom: 2px;
+    padding-left:5px;
+    padding-top:5px;
+}
+.accounts:hover{
+    border:rgb(255, 255, 255) 1px solid;
+    border-radius: 2px;
+}
+.orders{
+    width: 90px;
+    color:white;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.orders:hover{
+    border:rgb(255, 255, 255) 1px solid;
+    border-radius: 2px;
+}
+#return{
+    font-size: small;
+}
+#orders{
+    /* font-size:medium; */
+    font-style: bold;
+}
+.carts {
+    color: white;
+    margin-left: 30px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.carts:hover {
+    border: rgb(255, 255, 255) 1px solid;
+    border-radius: 2px;
+    padding-left:5px;
+    margin-top: 8px;;
+}
+#cart{
+    padding:10px;
+    font-size: 25px;
+}
+.secnav{
+    height:40px;
+    background-color: rgb(43, 43, 63);
+    display:flex;
+    
+}
+.all{
+    color:white;
+    height:35px;
+    width:40px;
+    display:flex;
+    align-items: center;
+    margin-left: 2px;
+    padding-left: 4px;
+    padding-right: 15px;
+}
+.all:hover{
+    border:rgb(255, 255, 255) 1px solid;
+    border-radius: 2px;
+}
+#all{
+    margin-left: 7px;
+}
+.minitv{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    margin-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.minitv:hover{
+    border:rgb(255, 255, 255) 1px solid;
+    border-radius: 2px;
+}
+
+.sell{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-left: 1px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    margin-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sell:hover{
+    border:rgb(255, 255, 255) 1px solid;
+    border-radius: 2px;
+}
+.app{
+    margin-left: 100px;
+    margin-top: 2px;
+    display:flex;
+    color:white;
+    padding-left:5px;
+    padding-bottom:2px;
+    padding-top: 5px;
+    padding-right:5px;
+    margin-bottom: 3px;
+}
+.apps{
+    margin-left:15px;
+    padding-top:3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.app:hover{
+    border:rgb(255, 255, 255) 1px solid;
+    border-radius: 2px;
+}
+.item {
+    background: linear-gradient(to bottom, rgb(43, 43, 63), black, white);
+    padding: 20px;
+    height: 500px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(255, 250, 250);
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    border: 2px rgb(32, 17, 198) solid;
+}
+
+.line2 {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgb(6, 3, 3);
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.line2 img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+.line2:hover {
+    border: 2px rgb(32, 17, 198) solid;
+}
+
+
+
+
+
